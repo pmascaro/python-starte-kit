@@ -1,0 +1,10 @@
+
+# Ignore CSV files
+*.csv
+
+# ignore venv
+.venv
+
+# ignore gitignore
+
+.gitignore

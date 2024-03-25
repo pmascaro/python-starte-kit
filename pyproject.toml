@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "peptech_tripvue_streamlit"
+version = "0.1.0"
+description = "A journey optimisation tool"
+authors = ["Pep Mascaro Monserrat <pepmartii@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.30.0"
+pre-commit = "^3.6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
