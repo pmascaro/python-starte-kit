@@ -4,18 +4,20 @@ Welcome to our repository!
 
 ## File Structure
 
-├── README.md
-├── app.py
-├── requirements.txt
-├── setup.py
-├── Procfile
-├── .gitignore
-├── data
-│   └── (your-datasets.pkl)
-├── models
-│   └── (your-trained-model.pkl)
-└── src
-    └── (your-helper-scripts.py)
+## File Structure
+
+- ├── README.md
+- ├── app.py
+- ├── requirements.txt
+- ├── setup.py
+- ├── Procfile
+- ├── .gitignore
+- ├── data
+    - └── (your-datasets.pkl)
+- ├── models
+    - └── (your-trained-model.pkl)
+- ├── src
+    - └── (your-helper-scripts.py)
 
 ## How this Repo Works
 
@@ -23,7 +25,7 @@ Welcome to our repository!
 
 #### Introduction
 
-This is the repository of TripVue, a travel journey optimisation tool.
+Here, you'll find a curated selection of boilerplate code, configurations, and documentation to kick-start your Python applications.
 
 #### Getting started
 
@@ -54,7 +56,7 @@ Note that most of the shell commands in this README are written for Unix based s
 
 Upon completion of the quick install, you can run the following command in your terminal to launch the task allocation optimiser:
 
-`python -m tripvue_optimisation -d data/input/domain_model.json --do-team-creation`
+`python -m [proj_name] -d data/input/domain_model.json --do-team-creation`
 You can visualise the results by launching a dash app with:
 
 `python -m dash_app`
